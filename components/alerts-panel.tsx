@@ -22,15 +22,6 @@ const alerts = [
     description: "Gradual slope angle increase detected over 24h",
     acknowledged: false,
   },
-  {
-    id: 3,
-    type: "info",
-    title: "Drone Survey Complete",
-    location: "Zone B - All Sectors",
-    time: "1 hour ago",
-    description: "Weekly aerial survey completed successfully",
-    acknowledged: true,
-  },
 ]
 
 export function AlertsPanel() {

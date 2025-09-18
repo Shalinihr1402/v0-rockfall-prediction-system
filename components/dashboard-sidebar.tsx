@@ -1,4 +1,4 @@
-import { BarChart3, Map, AlertCircle, Settings, Database, Camera, Activity } from "lucide-react"
+import { BarChart3, Map, AlertCircle, Settings, Database, Activity } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
@@ -7,7 +7,6 @@ const navigationItems = [
   { icon: Map, label: "Risk Map", active: false },
   { icon: AlertCircle, label: "Alerts", active: false },
   { icon: Activity, label: "Sensors", active: false },
-  { icon: Camera, label: "Drone Data", active: false },
   { icon: Database, label: "Analytics", active: false },
   { icon: Settings, label: "Settings", active: false },
 ]
